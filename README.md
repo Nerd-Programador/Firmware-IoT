@@ -1,4 +1,4 @@
-## GitHub + ESP32 / ESP8266 (Código Único – MultiPlacas)
+## GitHub + ESP32 / ESP8266 (Código Único – MultiPlacas)
 
 Arquitetura simples, leve e segura usando **GitHub como backend OTA**, compatível com **ESP8266 e ESP32** com **um único código-fonte**.
 
@@ -202,10 +202,3 @@ void loop() {
 - OTA automático por versão
 - Funciona dentro e fora da rede
 - Compatível com ESP8266 e ESP32
-"""
-
-path = "/mnt/data/README.md"
-with open(path, "w", encoding="utf-8") as f:
-    f.write(md_content)
-
-path
