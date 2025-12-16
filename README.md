@@ -1,6 +1,4 @@
-
-md_content = """# OTA Automático por Versão
-## GitHub + ESP32 / ESP8266 (Código Único – MultiPlacas)
+## GitHub + ESP32 / ESP8266 (Código Único – MultiPlacas)
 
 Arquitetura simples, leve e segura usando **GitHub como backend OTA**, compatível com **ESP8266 e ESP32** com **um único código-fonte**.
 
