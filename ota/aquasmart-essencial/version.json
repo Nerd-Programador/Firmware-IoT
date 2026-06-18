@@ -2,16 +2,16 @@
   "manifest_version": 2,
   "project": "aquasmart-essencial",
   "environment": "aquasmart-essencial",
-  "published_at": "2026-06-17",
-  "esp8266": "1.4.2",
+  "published_at": "2026-06-18",
+  "esp8266": "1.4.3",
   "esp32": "0.0.0",
   "firmware": {
     "esp8266": {
       "version": "1.4.2",
       "url": "https://raw.githubusercontent.com/Nerd-Programador/Firmware-IoT/main/ota/aquasmart-essencial/esp8266.bin",
-      "sha256": "5a70579b520ac21ec6933e0fe880c6569d2b304b87189cedd5c370523431c3a4",
-      "size": 699824,
-      "notes": "AquaSmart Essential 1.4.2 troca o OTA automatico por consulta semanal via NTP."
+      "sha256": "2737592a4835309808015e714ada3fa67b4ac507f94b7093fb3a19a8d2f43c28",
+      "size": 701056,
+      "notes": "AquaSmart Essential 1.4.3 corrige a continuacao OTA apos reboot do firmware e preserva a consulta semanal leve."
     }
   },
   "filesystem": {
