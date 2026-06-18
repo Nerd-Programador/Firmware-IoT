@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "project": "aquasmart-essencial",
+  "environment": "aquasmart-essencial",
+  "published_at": "2026-06-17",
+  "esp8266": "1.4.2",
+  "esp32": "0.0.0",
+  "firmware": {
+    "esp8266": {
+      "version": "1.4.2",
+      "url": "https://raw.githubusercontent.com/Nerd-Programador/Firmware-IoT/main/ota/aquasmart-essencial/esp8266.bin",
+      "sha256": "5a70579b520ac21ec6933e0fe880c6569d2b304b87189cedd5c370523431c3a4",
+      "size": 699824,
+      "notes": "AquaSmart Essential 1.4.2 troca o OTA automatico por consulta semanal via NTP."
+    }
+  },
+  "filesystem": {
+    "esp8266": {
+      "version": "1.4.0",
+      "url": "https://raw.githubusercontent.com/Nerd-Programador/Firmware-IoT/main/ota/aquasmart-essencial/esp8266-littlefs.bin",
+      "sha256": "868e8091c09e06fa365fc2d2beaa7a74cae0be256a9922892adf9eb21e574f18",
+      "size": 1024000,
+      "notes": "LittleFS 1.4.0 com dashboard e configuracoes condicionais do Fish Feeder."
+    }
+  }
+}
