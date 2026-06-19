@@ -2,25 +2,25 @@
   "manifest_version": 2,
   "project": "aquasmart-essencial",
   "environment": "aquasmart-essencial",
-  "published_at": "2026-06-18",
-  "esp8266": "1.4.3",
+  "published_at": "2026-06-19",
+  "esp8266": "1.4.4",
   "esp32": "0.0.0",
   "firmware": {
     "esp8266": {
-      "version": "1.4.2",
+      "version": "1.4.4",
       "url": "https://raw.githubusercontent.com/Nerd-Programador/Firmware-IoT/main/ota/aquasmart-essencial/esp8266.bin",
-      "sha256": "2737592a4835309808015e714ada3fa67b4ac507f94b7093fb3a19a8d2f43c28",
-      "size": 701056,
-      "notes": "AquaSmart Essential 1.4.3 corrige a continuacao OTA apos reboot do firmware e preserva a consulta semanal leve."
+      "sha256": "d33027d28cae561742c39d1c3e6c5b43d45741df8003aa6ee199fda2a415315f",
+      "size": 705712,
+      "notes": "AquaSmart Essential 1.4.4 adiciona diagnostico detalhado de OTA, logs no status e separa espaco LittleFS do slot OTA."
     }
   },
   "filesystem": {
     "esp8266": {
-      "version": "1.4.0",
+      "version": "1.4.4",
       "url": "https://raw.githubusercontent.com/Nerd-Programador/Firmware-IoT/main/ota/aquasmart-essencial/esp8266-littlefs.bin",
-      "sha256": "868e8091c09e06fa365fc2d2beaa7a74cae0be256a9922892adf9eb21e574f18",
+      "sha256": "2c55cc986ddebaafdad1f4712f0b94f7f5ff72e7a0d5d152a6fb7534bfc000e4",
       "size": 1024000,
-      "notes": "LittleFS 1.4.0 com dashboard e configuracoes condicionais do Fish Feeder."
+      "notes": "LittleFS 1.4.4 com monitor OTA na pagina de atualizacao e indicadores separados de LittleFS e slot OTA."
     }
   }
 }
