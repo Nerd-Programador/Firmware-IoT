@@ -7,7 +7,7 @@
   "esp32": "0.0.0",
   "firmware": {
     "esp8266": {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "url": "https://raw.githubusercontent.com/Nerd-Programador/Firmware-IoT/main/ota/aquasmart-essencial/esp8266.bin",
       "sha256": "d33027d28cae561742c39d1c3e6c5b43d45741df8003aa6ee199fda2a415315f",
       "size": 705712,
@@ -16,7 +16,7 @@
   },
   "filesystem": {
     "esp8266": {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "url": "https://raw.githubusercontent.com/Nerd-Programador/Firmware-IoT/main/ota/aquasmart-essencial/esp8266-littlefs.bin",
       "sha256": "2c55cc986ddebaafdad1f4712f0b94f7f5ff72e7a0d5d152a6fb7534bfc000e4",
       "size": 1024000,
