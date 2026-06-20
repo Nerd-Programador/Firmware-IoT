@@ -11,7 +11,7 @@
       "url": "https://raw.githubusercontent.com/Nerd-Programador/Firmware-IoT/main/ota/aquasmart-essencial/esp8266.bin",
       "sha256": "d33027d28cae561742c39d1c3e6c5b43d45741df8003aa6ee199fda2a415315f",
       "size": 705712,
-      "notes": "AquaSmart Essential 1.4.4 adiciona diagnostico detalhado de OTA, logs no status e separa espaco LittleFS do slot OTA."
+      "notes": "AquaSmart Essential 1.4.6 adiciona diagnostico detalhado de OTA, logs no status e separa espaco LittleFS do slot OTA."
     }
   },
   "filesystem": {
@@ -20,7 +20,7 @@
       "url": "https://raw.githubusercontent.com/Nerd-Programador/Firmware-IoT/main/ota/aquasmart-essencial/esp8266-littlefs.bin",
       "sha256": "2c55cc986ddebaafdad1f4712f0b94f7f5ff72e7a0d5d152a6fb7534bfc000e4",
       "size": 1024000,
-      "notes": "LittleFS 1.4.4 com monitor OTA na pagina de atualizacao e indicadores separados de LittleFS e slot OTA."
+      "notes": "LittleFS 1.4.6 com monitor OTA na pagina de atualizacao e indicadores separados de LittleFS e slot OTA."
     }
   }
 }
